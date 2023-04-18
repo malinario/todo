@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Enums;
+using MyTodo.Application.Common.Interfaces;
+using MyTodo.Domain.Enums;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Application.TodoLists.Queries.GetTodos;
+namespace MyTodo.Application.TodoLists.Queries.GetTodos;
 
 public class GetTodosQuery : IRequest<TodosVm>
 {

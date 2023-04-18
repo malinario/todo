@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
+﻿using MyTodo.Application.Common.Exceptions;
 using FluentAssertions;
 using FluentValidation.Results;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Exceptions;
+namespace MyTodo.Application.UnitTests.Common.Exceptions;
 
 public class ValidationExceptionTests
 {

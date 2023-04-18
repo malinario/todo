@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
+﻿using MyTodo.Application.TodoLists.Queries.ExportTodos;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace MyTodo.Application.Common.Interfaces;
 
 public interface ICsvFileBuilder
 {

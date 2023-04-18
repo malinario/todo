@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Common;
+﻿namespace MyTodo.Domain.Common;
 
 public abstract class AuditableEntity
 {

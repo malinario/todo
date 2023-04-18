@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Events;
+﻿using MyTodo.Application.Common.Models;
+using MyTodo.Domain.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Application.TodoItems.EventHandlers;
+namespace MyTodo.Application.TodoItems.EventHandlers;
 
 public class TodoItemCompletedEventHandler : INotificationHandler<DomainEventNotification<TodoItemCompletedEvent>>
 {
@@ -18,7 +18,7 @@ public class TodoItemCompletedEventHandler : INotificationHandler<DomainEventNot
     {
         var domainEvent = notification.DomainEvent;
 
-        _logger.LogInformation("CleanArchitecture Domain Event: {DomainEvent}", domainEvent.GetType().Name);
+        _logger.LogInformation("MyTodo Domain Event: {DomainEvent}", domainEvent.GetType().Name);
 
         return Task.CompletedTask;
     }

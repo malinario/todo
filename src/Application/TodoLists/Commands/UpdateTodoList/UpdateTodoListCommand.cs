@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using MyTodo.Application.Common.Exceptions;
+using MyTodo.Application.Common.Interfaces;
+using MyTodo.Domain.Entities;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.UpdateTodoList;
+namespace MyTodo.Application.TodoLists.Commands.UpdateTodoList;
 
 public class UpdateTodoListCommand : IRequest
 {

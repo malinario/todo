@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Common;
+﻿using MyTodo.Application.Common.Interfaces;
+using MyTodo.Application.Common.Models;
+using MyTodo.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Infrastructure.Services;
+namespace MyTodo.Infrastructure.Services;
 
 public class DomainEventService : IDomainEventService
 {

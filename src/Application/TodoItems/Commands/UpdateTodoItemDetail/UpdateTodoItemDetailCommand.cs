@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Enums;
+﻿using MyTodo.Application.Common.Exceptions;
+using MyTodo.Application.Common.Interfaces;
+using MyTodo.Domain.Entities;
+using MyTodo.Domain.Enums;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItemDetail;
+namespace MyTodo.Application.TodoItems.Commands.UpdateTodoItemDetail;
 
 public class UpdateTodoItemDetailCommand : IRequest
 {

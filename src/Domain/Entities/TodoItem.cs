@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Entities;
+﻿namespace MyTodo.Domain.Entities;
 
 public class TodoItem : AuditableEntity, IHasDomainEvent
 {

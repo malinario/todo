@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.WebUI;
+﻿using MyTodo.Application.Common.Interfaces;
+using MyTodo.Infrastructure.Identity;
+using MyTodo.Infrastructure.Persistence;
+using MyTodo.WebUI;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -12,7 +12,7 @@ using Moq;
 using NUnit.Framework;
 using Respawn;
 
-namespace CleanArchitecture.Application.IntegrationTests;
+namespace MyTodo.Application.IntegrationTests;
 
 [SetUpFixture]
 public class Testing
@@ -38,7 +38,7 @@ public class Testing
 
         services.AddSingleton(Mock.Of<IWebHostEnvironment>(w =>
             w.EnvironmentName == "Development" &&
-            w.ApplicationName == "CleanArchitecture.WebUI"));
+            w.ApplicationName == "MyTodo.WebUI"));
 
         services.AddLogging();
 

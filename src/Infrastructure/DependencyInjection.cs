@@ -1,15 +1,15 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Files;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.Infrastructure.Services;
+﻿using MyTodo.Application.Common.Interfaces;
+using MyTodo.Infrastructure.Files;
+using MyTodo.Infrastructure.Identity;
+using MyTodo.Infrastructure.Persistence;
+using MyTodo.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleanArchitecture.Infrastructure;
+namespace MyTodo.Infrastructure;
 
 public static class DependencyInjection
 {
@@ -18,7 +18,7 @@ public static class DependencyInjection
         if (configuration.GetValue<bool>("UseInMemoryDatabase"))
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseInMemoryDatabase("CleanArchitectureDb"));
+                options.UseInMemoryDatabase("MyTodoDb"));
         }
         else
         {

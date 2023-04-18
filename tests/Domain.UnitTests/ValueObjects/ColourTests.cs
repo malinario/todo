@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Exceptions;
-using CleanArchitecture.Domain.ValueObjects;
+﻿using MyTodo.Domain.Exceptions;
+using MyTodo.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Domain.UnitTests.ValueObjects;
+namespace MyTodo.Domain.UnitTests.ValueObjects;
 
 public class ColourTests
 {

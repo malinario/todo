@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Domain.Entities;
+﻿using MyTodo.Application.Common.Mappings;
+using MyTodo.Domain.Entities;
 
-namespace CleanArchitecture.Application.TodoLists.Queries.GetTodos;
+namespace MyTodo.Application.TodoLists.Queries.GetTodos;
 
 public class TodoListDto : IMapFrom<TodoList>
 {

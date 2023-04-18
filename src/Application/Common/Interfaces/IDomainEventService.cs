@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using MyTodo.Domain.Common;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace MyTodo.Application.Common.Interfaces;
 
 public interface IDomainEventService
 {

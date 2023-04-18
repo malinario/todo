@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using MyTodo.Application.Common.Models;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace MyTodo.Application.Common.Interfaces;
 
 public interface IIdentityService
 {

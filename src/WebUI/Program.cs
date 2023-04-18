@@ -1,9 +1,9 @@
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
+using MyTodo.Infrastructure.Identity;
+using MyTodo.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.WebUI;
+namespace MyTodo.WebUI;
 
 public class Program
 {

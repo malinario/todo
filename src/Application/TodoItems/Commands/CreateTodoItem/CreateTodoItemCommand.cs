@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Events;
+﻿using MyTodo.Application.Common.Interfaces;
+using MyTodo.Domain.Entities;
+using MyTodo.Domain.Events;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+namespace MyTodo.Application.TodoItems.Commands.CreateTodoItem;
 
 public class CreateTodoItemCommand : IRequest<int>
 {

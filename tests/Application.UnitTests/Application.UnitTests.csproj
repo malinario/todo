@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>CleanArchitecture.Application.UnitTests</RootNamespace>
-        <AssemblyName>CleanArchitecture.Application.UnitTests</AssemblyName>
+        <RootNamespace>MyTodo.Application.UnitTests</RootNamespace>
+        <AssemblyName>MyTodo.Application.UnitTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -19,11 +19,6 @@
         </PackageReference>
         <PackageReference Include="FluentAssertions" Version="6.2.0" />
         <PackageReference Include="Moq" Version="4.16.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\..\src\Application\Application.csproj" />
-        <ProjectReference Include="..\..\src\Infrastructure\Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Behaviours;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+﻿using MyTodo.Application.Common.Behaviours;
+using MyTodo.Application.Common.Interfaces;
+using MyTodo.Application.TodoItems.Commands.CreateTodoItem;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Behaviours;
+namespace MyTodo.Application.UnitTests.Common.Behaviours;
 
 public class RequestLoggerTests
 {

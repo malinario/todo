@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Models;
+﻿namespace MyTodo.Application.Common.Models;
 
 public class Result
 {

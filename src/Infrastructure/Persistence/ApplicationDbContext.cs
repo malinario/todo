@@ -1,14 +1,14 @@
 ﻿using System.Reflection;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Infrastructure.Identity;
+using MyTodo.Application.Common.Interfaces;
+using MyTodo.Domain.Common;
+using MyTodo.Domain.Entities;
+using MyTodo.Infrastructure.Identity;
 using Duende.IdentityServer.EntityFramework.Options;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace CleanArchitecture.Infrastructure.Persistence;
+namespace MyTodo.Infrastructure.Persistence;
 
 public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, IApplicationDbContext
 {

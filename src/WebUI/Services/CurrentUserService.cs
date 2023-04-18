@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
 
-using CleanArchitecture.Application.Common.Interfaces;
+using MyTodo.Application.Common.Interfaces;
 
-namespace CleanArchitecture.WebUI.Services;
+namespace MyTodo.WebUI.Services;
 
 public class CurrentUserService : ICurrentUserService
 {

@@ -1,15 +1,15 @@
-using CleanArchitecture.Application;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.WebUI.Filters;
-using CleanArchitecture.WebUI.Services;
+using MyTodo.Application;
+using MyTodo.Application.Common.Interfaces;
+using MyTodo.Infrastructure;
+using MyTodo.Infrastructure.Persistence;
+using MyTodo.WebUI.Filters;
+using MyTodo.WebUI.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using NSwag;
 using NSwag.Generation.Processors.Security;
 
-namespace CleanArchitecture.WebUI;
+namespace MyTodo.WebUI;
 
 public class Startup
 {
@@ -51,7 +51,7 @@ public class Startup
 
         services.AddOpenApiDocument(configure =>
         {
-            configure.Title = "CleanArchitecture API";
+            configure.Title = "MyTodo API";
             configure.AddSecurity("JWT", Enumerable.Empty<string>(), new OpenApiSecurityScheme
             {
                 Type = OpenApiSecuritySchemeType.ApiKey,
@@ -121,3 +121,4 @@ public class Startup
         });
     }
 }
+//

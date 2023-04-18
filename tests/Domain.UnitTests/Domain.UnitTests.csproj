@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>CleanArchitecture.Domain.UnitTests</RootNamespace>
-        <AssemblyName>CleanArchitecture.Domain.UnitTests</AssemblyName>
+        <RootNamespace>MyTodo.Domain.UnitTests</RootNamespace>
+        <AssemblyName>MyTodo.Domain.UnitTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -18,10 +18,6 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="FluentAssertions" Version="6.2.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\..\src\Domain\Domain.csproj" />
     </ItemGroup>
 
 </Project>

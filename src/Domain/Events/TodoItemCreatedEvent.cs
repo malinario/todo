@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Events;
+﻿namespace MyTodo.Domain.Events;
 
 public class TodoItemCreatedEvent : DomainEvent
 {

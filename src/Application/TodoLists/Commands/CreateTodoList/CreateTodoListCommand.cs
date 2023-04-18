@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using MyTodo.Application.Common.Interfaces;
+using MyTodo.Domain.Entities;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.CreateTodoList;
+namespace MyTodo.Application.TodoLists.Commands.CreateTodoList;
 
 public class CreateTodoListCommand : IRequest<int>
 {
